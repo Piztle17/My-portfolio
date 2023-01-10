@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="95px" viewBox="0 0 95 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>playbutton</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-Desktop--LATEST" transform="translate(-675.000000, -2057.000000)">
+            <g id="Video-Split-Overlay" transform="translate(92.000000, 1798.000000)">
+                <g id="playbutton" transform="translate(583.625000, 259.633188)">
+                    <ellipse id="Oval" fill="#F05641" cx="46.875" cy="46.8668122" rx="46.875" ry="46.8668122"></ellipse>
+                    <polygon id="Path-2" fill="#FFFFFF" points="39.5833333 31.2445415 61.4583333 46.8668122 39.5833333 62.489083"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

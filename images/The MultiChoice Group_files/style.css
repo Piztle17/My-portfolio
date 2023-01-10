@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'multichoice-icon';
+  src:
+    url('https://i.icomoon.io/public/ed8909a9fb/MultichoiceCorporate/multichoice-icon.woff2?4ncooz') format('woff2'),
+    url('https://i.icomoon.io/public/ed8909a9fb/MultichoiceCorporate/multichoice-icon.ttf?4ncooz') format('truetype'),
+    url('https://i.icomoon.io/public/ed8909a9fb/MultichoiceCorporate/multichoice-icon.woff?4ncooz') format('woff'),
+    url('https://i.icomoon.io/public/ed8909a9fb/MultichoiceCorporate/multichoice-icon.svg?4ncooz#multichoice-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'multichoice-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-benefits-m-life_02:before {
+  content: "\e935";
+}
+.icon-benefits-leave:before {
+  content: "\e933";
+}
+.icon-benefits-life-moments:before {
+  content: "\e934";
+}
+.icon-benefits-perks:before {
+  content: "\e92a";
+}
+.icon-benefits-health:before {
+  content: "\e92b";
+}
+.icon-benefits-m-life:before {
+  content: "\e92c";
+}
+.icon-benefits-medical-aid:before {
+  content: "\e92d";
+}
+.icon-benefits-daycare:before {
+  content: "\e92e";
+}
+.icon-benefits-kids:before {
+  content: "\e92f";
+}
+.icon-benefits-fitness:before {
+  content: "\e930";
+}
+.icon-back-to-MC:before {
+  content: "\e931";
+  color: #fff;
+}
+.icon-stock-price:before {
+  content: "\e932";
+  color: #fff;
+}
+.icon-graph:before {
+  content: "\e924";
+}
+.icon-printer:before {
+  content: "\e925";
+}
+.icon-pdf-doc:before {
+  content: "\e926";
+}
+.icon-excel-doc:before {
+  content: "\e927";
+}
+.icon-reports:before {
+  content: "\e928";
+}
+.icon-email:before {
+  content: "\e929";
+}
+.icon-plus-in-circle_64x64:before {
+  content: "\e922";
+}
+.icon-minus-in-circle_64x64:before {
+  content: "\e923";
+}
+.icon-MC_ICO_FORUM-01:before {
+  content: "\e921";
+}
+.icon-shevron-down-small:before {
+  content: "\e938";
+}
+.icon-shevron-up-small:before {
+  content: "\e939";
+}
+.icon-shevron-left-small:before {
+  content: "\e937";
+}
+.icon-Close:before {
+  content: "\e936";
+}
+.icon-left-quote:before {
+  content: "\e91f";
+}
+.icon-right-quote:before {
+  content: "\e920";
+}
+.icon-thin-long-arrow-down:before {
+  content: "\e91d";
+}
+.icon-thin-long-arrow-up:before {
+  content: "\e91e";
+}
+.icon-arrow-thin-right:before {
+  content: "\e91b";
+}
+.icon-arrow-thin-left:before {
+  content: "\e91c";
+}
+.icon-arrow-thin-up:before {
+  content: "\e919";
+}
+.icon-arrow-thin-down:before {
+  content: "\e91a";
+}
+.icon-graphic-up:before {
+  content: "\e906";
+}
+.icon-plus:before {
+  content: "\e907";
+}
+.icon-round-arrow-right:before {
+  content: "\e908";
+}
+.icon-round-arrow-left:before {
+  content: "\e909";
+}
+.icon-round-arrow-up:before {
+  content: "\e90b";
+}
+.icon-round-arrow-down:before {
+  content: "\e90d";
+}
+.icon-round-play:before {
+  content: "\e90e";
+}
+.icon-search:before {
+  content: "\e90f";
+}
+.icon-share:before {
+  content: "\e910";
+}
+.icon-shevron-down:before {
+  content: "\e911";
+}
+.icon-shevron-up:before {
+  content: "\e912";
+}
+.icon-shevron-right:before {
+  content: "\e913";
+}
+.icon-shevron-left:before {
+  content: "\e914";
+}
+.icon-arrow-down:before {
+  content: "\e915";
+}
+.icon-arrow-up:before {
+  content: "\e916";
+}
+.icon-arrow-right:before {
+  content: "\e917";
+}
+.icon-arrow-left:before {
+  content: "\e918";
+}
+.icon-MC_ICO_CONTACT-US-02:before {
+  content: "\e90a";
+}
+.icon-MC_ICO_CAREERS-01-01:before {
+  content: "\e90c";
+}
+.icon-search_circle:before {
+  content: "\e93a";
+}
+.icon-flickr:before {
+  content: "\e900";
+}
+.icon-instagram:before {
+  content: "\e901";
+}
+.icon-pinterest:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-linkedin:before {
+  content: "\e904";
+}
+.icon-twitter:before {
+  content: "\e905";
+}

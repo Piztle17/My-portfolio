@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+}
+body  {
+    color: rgb(241, 231, 231);
+}
+html {
+    --scroll-behavior: smooth;
+}
+.navbar-nav {
+    --bs-scroll-height: 100px;
+}
+.nav_link {
+    text-decoration: none;
+    line-height: 48px;
+    color: white;
+}
+.nav_link:hover {
+    color: rgb(36, 32, 32);
+}
+.nav_link:active + :checked {
+    color: rgb(36, 32, 32);
+}
+.sidenav_bar {
+    position: fixed;
+    top: 30%;
+    bottom: 0%;
+    height: 80%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: 0;
+    background-color: #278627;
+    width: 13%;
+    overflow: hidden;
+}
+.ul_links {
+    margin-top: 20px;
+}
+ li {
+    list-style-type: none;
+}
+.container_full {
+    background-color: rgb(15, 15, 15);
+    color: rgb(241, 231, 231);
+}
+.flex_top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.align_about {
+    text-align: center;
+    display: block;
+}
+.about {
+    margin-top: 20px;
+}
+.flexed_intro {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    gap: 107px;
+    margin-top: 70px;
+}
+.img_radius {
+    border-radius: 15px;
+}
+.years_eperince {
+    display: flex;
+    justify-content: space-between;
+    /* line-height: 20px; */
+    margin-bottom: 53px;
+}
+.company_name {
+    width: 30%;
+}
+.profile_link  {
+    width: 16%;
+    margin-left: 134px;
+}
+.profile_link > a {
+    width: 200px;
+}
+.prof_image {
+    width: 33%;
+}
+.div1 {
+    margin-bottom: 10px;
+}
+.into_para  {
+    margin-bottom: 54px;
+}
+.flex_contact {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 37px;
+}
+.image_device  {
+    width: 100%;
+    height: auto;
+}
+.contact_me {
+    display: flex;
+    margin: auto;
+    gap: 83px;
+    margin-top: 40px;
+    width: 60%;
+}
+.active {
+    width: 90%;
+}
+.active80  {
+    width: 80%;
+}
+.active70 {
+    width: 70%;
+}
+.active110 {
+    width: 30%;
+}
+.fa-github {
+    color: rgba(0, 0, 0, 0.548);
+}
+.color1 {
+    color: #00FF00;
+}
+.color2  {
+    color: orangered
+}
+.color3  {
+    color: rgb(130, 48, 207);
+}
+.color4 {
+    color: yellow;
+}
+.color5 {
+    color: #075e54;
+}
+.header_contact {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+.input_margin  {
+    margin: 16px 0;
+}
+.progress {
+    width: 50%;
+}
+.navbar {
+    background-color: rgba(37, 43, 48, 0.973);
+    border-bottom: 2px solid #278627;
+}
+input  {
+    padding: 24px 10px;
+    padding-top: 3px;
+    border-radius: 10px;
+}
+button {
+    padding: 15px;
+    border-color: #278627;
+    border-radius: 13px;
+    background-color: #278627;
+    color: white;
+}
+.divm11 {
+    display: flex;
+    gap: 20px;
+}
+.flex_code {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+.aalign_develop {
+    align-items: center;
+}
+.skills {
+    width: 41%;
+    margin: auto;
+    margin-top: 40px;
+}
+.header_para {
+    line-height: 10px;
+}
+.html {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.progress_br {
+    margin-top: 30px;
+    width: 170%;
+    height: 0;
+    opacity: 0;
+}
+.active {
+    height: auto;
+    opacity: 1;
+}
+button.send_btn {
+    border-radius: 15px;
+}
