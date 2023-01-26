@@ -1,28 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 * {
+    font-family: 'Rubik', sans-serif;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 :root {
-    --color-primary--: white;
+    --color-primary--: black;
     --color-mode1--: rgb(224, 47, 47); 
-    --color-mode2--: #278627;
-    --color-mode3--: rgb(5, 5, 5);
+    --color-mode2--:   #278627;
+    --color-mode3--: rgb(224, 220, 220);
     --color-mode4--: rgb(36, 32, 32);
     --color-mode5--: white;
     --color-mode6--: white;   
 }
 .light_mode {
-    --color-primary--: white;
+    --color-primary--: rgb(206, 198, 198);
     --color-mode1--: rgba(233, 55, 55, 0.925); 
-    --color-mode2--: rgba(233, 55, 55, 0.925);
-    --color-mode3--: rgb(15, 15, 15);
+    --color-mode2--: rgba(228, 26, 26, 0.925);
+    --color-mode3--: rgb(5, 5, 5);
     --color-mode4--: rgb(36, 32, 32);
-    --color-mode5--: white;
+    --color-mode5--: rgb(102, 92, 92);
     --color-mode6--: white; 
 }
 .body  {
-    color: rgb(241, 231, 231);
+    color: var(--color-primary--);
     background-color: var(--color-mode3--);
 }
 html {
@@ -44,7 +44,7 @@ html {
 }
 .sidenav_bar {
     position: fixed;
-    top: 11%;
+    top: 0%;
     bottom: 0;
     min-height: 100vh;
     transition: 0.3s ease;
@@ -52,9 +52,7 @@ html {
     border-bottom-right-radius: 10px;
     left: 0;
     background-color: var(--color-mode2--);
-    width: 15.2rem;
-    /* overflow: hidden; */
-    display: none;
+    width: 10.2rem;
 }
 .textt {
     font-weight: 600;
@@ -130,18 +128,7 @@ html {
     transition: all 0.2s linear;
 }
 /*========================= top intro ===============*/
-.flex_top {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 20px;
-    background-image: url(images/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.h_color {
-    color: var(--color-mode2--);
-}
+/* ===================about================== */
 .align_about {
     text-align: center;
     display: block;
@@ -256,9 +243,6 @@ i.fa-paint-brush {
     font-size: 3rem;
     margin-bottom: 10px;
 }
-.color2  {
-    color: orangered
-}
 .color3  {
     color: rgb(130, 48, 207);
 }
@@ -270,6 +254,19 @@ i.fa-paint-brush {
 }
 .color_tlink {
     color: white;
+}
+.content .fa-css3 {
+    font-size: 3rem;
+    color: orangered
+}
+.content .fa-html5{
+    font-size: 3rem;
+}
+.content .fa-jsfiddle {
+    font-size: 3rem;
+}
+.content .fa-address-book{
+    font-size: 3rem;
 }
 /*======================== contact me2========================= */
 .header_contact {
@@ -348,18 +345,14 @@ button.send_btn {
     background-color: rgb(59, 31, 163);
     color: white;
 }
-.bg_mmnav {
-    background-color: rgb(224, 205, 205);
-    color: black;
-}
 .link_color {
     color: black;
 }
 .d_none_img {
     opacity: 0;
-    height: o;
+    height: 0;
 }
-@media screen and (max-width: 788px) {
+@media screen and (max-width: 688px) {
     .flex_top {
         flex-direction: column;
     }
@@ -392,7 +385,5 @@ button.send_btn {
         width: 64%;
         margin: auto;
         margin-left: 79px;
-    }
-    .flex_code  {
     }
 }

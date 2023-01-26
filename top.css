@@ -1,0 +1,62 @@
+:root{
+   --color-mode2--:   #278627;
+}
+.home {
+    margin-top: 6rem;
+ }
+ 
+ .home .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+ }
+ 
+ .home .row .content {
+    flex: 1 1 40rem;
+    text-align: center;
+ }
+ 
+ .home .row .image {
+    flex: 1 1 40rem;
+ }
+ 
+ .home .row .image img {
+    width: 100%;
+ }
+ 
+ .home .row .content h3 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    color: rgba(233, 55, 55, 0.925);
+    line-height: 2;
+    margin-left: 15rem;
+ }
+ 
+ .home .row .content h3 span {
+    color: var(--crimson);
+ }
+ .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background-color: var(--light-bg);
+    cursor: pointer;
+    color: var(--black);
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    transition: all linear 0.3s;
+ }
+ 
+ .btn:hover {
+    background-color: var(--black);
+    color: white;
+    transform: translate(0px, -3px);
+    box-shadow: 0px 0px 6px 1px rgb(59, 58, 58);
+ }
+ .flex_secard {
+    /* display: flex; */
+    margin: auto;
+ }
+ 
+ 

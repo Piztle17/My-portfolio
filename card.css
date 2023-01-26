@@ -109,4 +109,79 @@ body .container {
     background: #fff;
     color: #000;
   }
+  /* ===================mobile nav =====================*/
+  .navigation_bar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    background: rgb(219, 141, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    bottom: 0;
+    display: none;
+    /* margin-left: 75px;
+    margin-top: 15px; */
+  }
+  .navigation_bar ul{
+    display: flex;
+    /* list-style: none; */
+    width: 352px;
+  }
+  .navigation_bar ul li {
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+  }
+  .navigation_bar ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .navigation_bar ul li a .nav_icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: 0.5s;
+    color: red;
+  }
+  .navigation_bar ul li:hover a .nav_icon{
+    transform: translateY(-35px);
+  }
+  .navigation_bar ul li a .nav_text {
+    position: absolute;
+    color: gray;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .navigation_bar ul li:hover a .nav_text{
+    opacity: 1;
+    transform: translateY(10px);
+  }
+  /* .indicator{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: -50%;
+    background: rgb(67, 67, 185);
+    border-radius: 50%;
+    border: 6px solid black;
+    transition: 0.5s;
+  } */
+  @media screen and (max-width: 788px) {
+    .navigation_bar {
+      display: block;
+  }
+  }
   
